@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\WebApplication16.csproj": {}
+    "C:\\Users\\gkumarroy\\Source\\Repos\\car-rental\\WebApplication16.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\WebApplication16.csproj": {
+    "C:\\Users\\gkumarroy\\Source\\Repos\\car-rental\\WebApplication16.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\WebApplication16.csproj",
+        "projectUniqueName": "C:\\Users\\gkumarroy\\Source\\Repos\\car-rental\\WebApplication16.csproj",
         "projectName": "WebApplication16",
-        "projectPath": "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\WebApplication16.csproj",
+        "projectPath": "C:\\Users\\gkumarroy\\Source\\Repos\\car-rental\\WebApplication16.csproj",
         "packagesPath": "C:\\Users\\gkumarroy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\obj\\",
+        "outputPath": "C:\\Users\\gkumarroy\\Source\\Repos\\car-rental\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gkumarroy\\AppData\\Roaming\\NuGet\\NuGet.Config",
