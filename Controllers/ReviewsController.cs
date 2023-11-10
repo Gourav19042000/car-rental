@@ -28,7 +28,11 @@ namespace WebApplication16.Controllers
           {
               return NotFound();
           }
-            return await _context.Review.ToListAsync();
+
+           var r3=_context.Review
+           .Include(Review => Review.Customer)
+           .ToList();
+            return Ok(r3);
         }
 
         // GET: api/Reviews/5
@@ -89,7 +93,19 @@ namespace WebApplication16.Controllers
           {
               return Problem("Entity set 'CarDbContext.Review'  is null.");
           }
-            _context.Review.Add(review);
+
+            var r1 = await _context.Review.FindAsync(review.CustomerId);
+            if (r1 == null)
+            {
+                return NotFound("Car Not Found");
+            }
+            var r2 = new Review
+            {
+                CustomerId = review.CustomerId,
+                Review1 = review.Review1
+            };
+            _context.Review.Add(r2);
+
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetReview", new { id = review.ReviewId }, review);

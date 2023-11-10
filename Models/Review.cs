@@ -8,6 +8,6 @@ namespace WebApplication16.Models
         public int ReviewId { get; set; }
         public string? Review1 { get; set; }
         public int? CustomerId { get; set; }
-        public virtual Customer? Customers { get; set; }
+        public virtual Customer? Customer { get; set; }
     }
 }

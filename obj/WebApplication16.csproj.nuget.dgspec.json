@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\WebApplication16.csproj": {}
+    "C:\\Users\\mmalleswaridevi\\Source\\Repos\\Gourav19042000\\car-rental\\WebApplication16.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\WebApplication16.csproj": {
+    "C:\\Users\\mmalleswaridevi\\Source\\Repos\\Gourav19042000\\car-rental\\WebApplication16.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\WebApplication16.csproj",
+        "projectUniqueName": "C:\\Users\\mmalleswaridevi\\Source\\Repos\\Gourav19042000\\car-rental\\WebApplication16.csproj",
         "projectName": "WebApplication16",
-        "projectPath": "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\WebApplication16.csproj",
-        "packagesPath": "C:\\Users\\gkumarroy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gkumarroy\\OneDrive - Huron Consulting Group\\Documents\\Practice\\all folders\\WebApplication16\\obj\\",
+        "projectPath": "C:\\Users\\mmalleswaridevi\\Source\\Repos\\Gourav19042000\\car-rental\\WebApplication16.csproj",
+        "packagesPath": "C:\\Users\\mmalleswaridevi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mmalleswaridevi\\Source\\Repos\\Gourav19042000\\car-rental\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gkumarroy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mmalleswaridevi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -94,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
